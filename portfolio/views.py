@@ -17,7 +17,7 @@ def portfolio_collection(request):
 @api_view(['GET'])
 def portfolio_detail(request, portfolio_slug):
     try:
-        post = Portfolio.objects.get(intro=portfolio_slug)
+        post = Portfolio.objects.get(slug=portfolio_slug)
     except Portfolio.DoesNotExist:
         return HttpResponse(status=404)
 
