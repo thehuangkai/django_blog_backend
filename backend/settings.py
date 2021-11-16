@@ -88,8 +88,8 @@ DATABASES = {
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
   'http://localhost:3000',
-  'https://d35qhdrnajw0ue.cloudfront.net/',
-  'http://reactjs-blog-hk.s3-website-ap-southeast-1.amazonaws.com/'
+  'https://d35qhdrnajw0ue.cloudfront.net',
+  'http://reactjs-blog-hk.s3-website-ap-southeast-1.amazonaws.com'
 
 )
 
