@@ -85,13 +85,13 @@ DATABASES = {
     }
 }
 
-CORS_ORIGIN_ALLOW_ALL = False
-CORS_ORIGIN_WHITELIST = (
-  'https://d35qhdrnajw0ue.cloudfront.net',
-  'http://reactjs-blog-hk.s3-website-ap-southeast-1.amazonaws.com',
-  'https://thehuangkai.com',
-  'http://thehuangkai.com'
-)
+CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_WHITELIST = (
+#   'https://d35qhdrnajw0ue.cloudfront.net',
+#   'http://reactjs-blog-hk.s3-website-ap-southeast-1.amazonaws.com',
+#   'https://thehuangkai.com',
+#   'http://thehuangkai.com'
+# )
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
