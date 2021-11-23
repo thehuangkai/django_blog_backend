@@ -90,7 +90,8 @@ CORS_ORIGIN_WHITELIST = (
   'https://d35qhdrnajw0ue.cloudfront.net',
   'http://reactjs-blog-hk.s3-website-ap-southeast-1.amazonaws.com',
   'https://thehuangkai.com',
-  'https://www.thehuangkai.com'
+  'https://www.thehuangkai.com',
+  'http://localhost:3000/'
 )
 
 # Password validation

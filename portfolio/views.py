@@ -25,6 +25,12 @@ def portfolio_detail(request, portfolio_slug):
         serializer = PortfolioSerializer(post)
         return Response(serializer.data)
 
+@api_view(['GET'])
+def start(request):
+    if request.method == 'GET':
+        return HttpResponse('System started', status=200)
+
+
 class PortfolioCreate(generics.CreateAPIView):
     queryset = Portfolio.objects.all(),
     serializer_class = PortfolioSerializer
