@@ -91,7 +91,7 @@ CORS_ORIGIN_WHITELIST = (
   'http://reactjs-blog-hk.s3-website-ap-southeast-1.amazonaws.com',
   'https://thehuangkai.com',
   'https://www.thehuangkai.com',
-  'http://localhost:3000/'
+  'http://localhost:3000'
 )
 
 # Password validation
